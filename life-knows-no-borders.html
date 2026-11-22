@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f4f1">
+  <meta name="description" content="A poetic audio-visual artwork about migration, borders, and survival, centred on Beam, a migrant from Cambodia living in London.">
+  <title>Life Knows No Borders | Jyoti Jangra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f5f4f1;
+      --ink: #171717;
+      --muted: #666d69;
+      --accent: #bd4d3a;
+      --sans: "DM Sans", Arial, sans-serif;
+      --serif: "Playfair Display", Georgia, serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 16px/1.7 var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+    main { width: min(960px, calc(100% - 48px)); margin: 0 auto; padding: 48px 0 80px; }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 48px;
+      color: var(--muted);
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .back-link:hover { color: var(--accent); }
+    h1 {
+      margin: 0 0 28px;
+      font: 500 clamp(2.4rem, 7vw, 4.5rem)/1.1 var(--serif);
+      letter-spacing: -.04em;
+    }
+    video {
+      display: block;
+      width: 100%;
+      max-height: 72vh;
+      margin-bottom: 44px;
+      aspect-ratio: 16 / 9;
+      background: #191a19;
+      object-fit: contain;
+    }
+    .introduction { max-width: 760px; }
+    .introduction h2 {
+      margin: 0 0 18px;
+      color: var(--accent);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .introduction p { margin: 0 0 20px; color: #505854; }
+    @media (max-width: 600px) {
+      main { width: calc(100% - 40px); padding-top: 30px; }
+      .back-link { margin-bottom: 35px; }
+      video { margin-bottom: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back-link" href="index.html#films">← Back to films</a>
+    <h1>Life Knows No Borders</h1>
+    <video controls playsinline preload="metadata" poster="assets/portfolio/life-knows-no-borders-cover.jpg" aria-label="Life Knows No Borders video">
+      <source src="assets/AS2-MBS.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+    <section class="introduction" aria-labelledby="introduction-title">
+      <h2 id="introduction-title">Introduction</h2>
+      <p>Migration is framed as a crisis produced by globalisation and constructed as a threat to social order, economic stability, and territorial sovereignty. The mini artwork, consisting of a poem narrated through an audio-visual piece, intervenes in such framings by treating migration as an instinctive, life-sustaining practice that predates and exceeds modern political cartography. The artwork asserts that, across ecological systems, mobility functions as an adaptive strategy: birds migrate to escape seasonal scarcity, marine species traverse oceans in search of sustenance, and pastoral animals move in response to changing environments. Human mobility, likewise, has long been driven by the pursuit of viable futures.</p>
+      <p>Set in London, the audio-visual artwork centres on Beam, a migrant from Cambodia. It combines documentary-style footage with poetic narration to foreground migrant experiences within a hostile political environment. Beam migrated to the UK for education and employment and works part-time in a student hostel to support herself. By situating her narrative against the backdrop of rising anti-immigration sentiments in the UK, the artwork challenges dominant discourses that prioritise territorial sovereignty over human survival and invites viewers to interrogate whether contemporary borders facilitate life or, instead, render survival increasingly precarious. The project encourages viewers to engage critically and ethically, reflecting on humanitarian perspectives and the structural forces that shape contemporary migration discourse.</p>
+    </section>
+  </main>
+</body>
+</html>
